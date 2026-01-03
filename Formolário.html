@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>S.A. Formulário</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stylespp.css">
+
+</head>
+
+<body>
+    <div class="linha-branca-top"></div>
+
+    <header>
+
+        <h1>S.A.<br> Serviços Técnicos</h1>
+
+    </header>
+    <div class="linha-branca"></div>
+
+    <nav>
+        <a href="http://127.0.0.1:5500/Eletricidade%20Predial.html" class="navegar">Eletricista Predial</a>
+        <a href="http://127.0.0.1:5500/Eletricidade%20Industrial.html" class="navegar">Eletricidade Industrial</a>
+        <a href="http://127.0.0.1:5500/Sistema%20de%20Segurança%20Eletrônica.html" class="navegar">Sistema de
+            Segurança Eletrônica</a>
+
+    </nav>
+    <div class="linha-branca2"></div>
+    <article class="formulario-article">
+    <h2 class="titulo-formulario"> Formulário de Solicitação de Orçamento</h2>
+    <div class="form-container">
+        <form action="" method="get" enctype="multipart/form-data" class="formulario">
+           
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Nome e sobrenome Ex.: Ricardo Reis" id="nome" name="nome" required><br><br>
+
+            <label for="complete_address">Endreço da obra:</label>
+            <textarea id="complete_address" placeholder="Endreço completo da obra " name="complete_address" rows="4"
+                cols="50"></textarea><br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" placeholder="+55 44 994132-XXXX." id="telefone" name="telefone" required><br><br>
+
+            <label for="">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="descricao">Descrição do Serviço Predial:</label><br>
+            <textarea id="descricao" placeholder="Descreve o serviço a ser realizado" name="descricao" rows="4"
+                cols="50" required></textarea><br><br>
+
+            <label for="arquivos">Entroduza os seus arquivos</label>
+            <input type="file" class="arquivos" name="arquivo" multiple><br><br>
+
+            <input type="submit" value="Enviar Solicitação">
+        </form>
+    </div>
+    </article>
+    <a href="P%C3%A1gina%20principal.html" class="voltar-para-pagina-principal">Voltar à página principal</a>
+
+    <footer>
+        <div class="titulo-rodape">
+            <h2>Contactos:</h2>
+        </div>
+
+        <p class="contactos"> <b> Numéro de telefone: </b> <a href="tel:(31)99208-5289">(31)99208-5289</a>
+        </p>
+
+
+        <p class="contactos"> <b> Email:</b><a href="mailto: sa.servicostec@gmail.com"> sa.servicostec@gmail.com </a>
+        </p>
+    </footer>
+</body>
+
+
+</html>

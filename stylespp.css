@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+
+}
+
+body {
+    position: absolute;
+    background: url(img/imagem\ de\ fundo.png);
+    background-size: cover;
+
+}
+
+.linha-branca-top {
+
+    background-color: #EBEBF2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10px;
+}
+
+header {
+    background-color: #1D3159;
+    width: 100%;
+    color: white;
+    height: 300px;
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 2px;
+    justify-content: center;
+
+}
+
+.linha-branca {
+
+    background-color: #EBEBF2;
+    position: absolute;
+    top: calc(300px + 2px);
+    width: 100%;
+    height: 10px;
+
+}
+
+nav {
+    background: #5D6C8C;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    word-spacing: 2px;
+    font-size: 200px;
+    cursor: pointer;
+
+}
+
+.navegar {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 50px;
+    word-spacing: 2px;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.linha-branca2 {
+
+    background-color: #EBEBF2;
+    position: absolute;
+    top: calc(300px + 130px);
+    width: 100%;
+    height: 20px;
+}
+
+aside {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 55%;
+    width: 35%;
+    height: 500px;
+    justify-content: right;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    word-spacing: 2px;
+    border-radius: 30px;
+
+
+}
+
+.menu-titulo {
+    background-color: #052b4d;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 80px;
+
+}
+
+.link-paginas {
+
+    position: relative;
+    text-decoration: underline;
+    font-size: 60px;
+    margin-bottom: 90px;
+    font-weight: bold;
+    color: #EBEBF2;
+    text-align: center;
+    text-shadow: 30px 20px 10px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+
+}
+
+.Nós {
+    display: inline-block;
+    width: 40%;
+    align-items: center;
+    margin: 100px 150px 150px 100px;
+    padding: 20px;
+
+
+}
+
+h3 {
+    font-size: 60px;
+    margin-bottom: 90px;
+    font-weight: bold;
+    color: #EBEBF2;
+    text-align: center;
+    text-shadow: 30px 20px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+p2 {
+    font-weight: 600;
+    color: #EBEBF2;
+    text-shadow: 0px 5px 1px rgba(0, 0, 0, 0.9);
+    font-size: 40px;
+    line-height: 40px;
+    word-spacing: 2px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+
+}
+
+
+
+iframe {
+    margin-top: 50px;
+    margin-bottom: 23px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 10px solid #337fdc;
+
+}
+
+footer {
+    margin-bottom: 1px;
+    display: flex;
+    background: #5D6C8C;
+    height: 100%;
+
+}
+
+.titulo-rodape {
+    margin: 3px 300px 6px 8px;
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.5);
+    height: 400;
+    display: block;
+    font-size: 50px;
+    color: #181426;
+}
+
+.contactos {
+
+    
+    margin-top: 40px;
+    margin-right: 50px;
+    font-size: 30px;
+    border: 2px;
+    color: #181426;
+    word-spacing: 2px;
+    cursor: pointer;
+    display: block;
+
+}
+
+.linkfooter {
+
+    color: #EBEBF2;
+}
+
+@media screen and (max-width: 610px) {
+
+    body {
+        position: absolute;
+        background-image: none;
+        background-color: rgba(18, 42, 89, 0.08);
+    }
+
+    header {
+        font-size: 20px;
+        height: 150px;
+    }
+    .linha-branca{
+        top: calc(150px + 2px);
+        height: 3px;
+    }
+
+
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navegar {
+        font-size: 25px;
+        margin-right: 20px;
+        cursor: pointer;
+
+    }
+
+      .linha-branca2{
+        display: none;
+    }
+
+    .Nós {
+        color: #122A59;
+        display: block;
+        width: calc(100% - 20px);
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
+    h3 {
+        color: #122A59;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    p2 {
+        font-size: 25px;
+        color: #122A59;
+        text-shadow: none;
+        line-height: 35px;
+        margin-right: calc(100% - 10px);
+        margin-left: 20px;
+    }
+
+    aside {
+        position: absolute;
+        display: block;
+        height: 200px;
+        width: 30%;
+        margin-top: 117%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: none;
+
+    }
+
+    .menu-titulo {
+        display: none;
+    }
+
+    .link-paginas {
+
+        position: absolute;
+        margin: 100px 0px 70px 80px;
+        color: #122A59;
+        font-size: 30px;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .titulo-rodape {
+        display: none;
+    }
+
+    .contactos {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+
+}
